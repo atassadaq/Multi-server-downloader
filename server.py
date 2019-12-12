@@ -3,8 +3,8 @@ import sys
 from threading import *
 
 # next create a socket object 
-i = sys.argv[1] #status interval
-n = sys.argv[2] #No-of servers
+i = float(sys.argv[1]) #status interval
+n = int(sys.argv[2]) #No-of servers
 f = sys.argv[3] #file_location
 p = int(sys.argv[4]) #port num list
 

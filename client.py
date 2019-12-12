@@ -9,7 +9,7 @@ import sys
 
 def main():
     r = sys.argv[1] #resume
-    i = sys.argv[2] #interval_time_seconds
+    i = float(sys.argv[2]) #interval_time_seconds
     o = sys.argv[3] #out_put directory
     a = sys.argv[4] #server IP
     p = int(sys.argv[5]) #port_list
